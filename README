@@ -1,0 +1,9 @@
+This application is part of a student project.
+
+General project setup:
+
+Raspberry Pi runs custom build kernel and hosts this application to control a TRex motor controller. The TRex controller is connected to the Pi using an I2C bus.
+
+The Pi also hosts a webapplication in PHP which can be used to access the TRex controller from the outside.
+
+Students need to implement parts of the TRex controller software and build the web application. They also need to build the Linux kernel and rootfs using buildroot.
